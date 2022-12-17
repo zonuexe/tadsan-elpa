@@ -1,0 +1,9 @@
+(source gnu nongnu melpa)
+
+(dev-dependency github-elpa)
+
+(script
+ (build
+  (keg-shell
+   '("keg" "emacs" "--batch" "-Q" "--eval" "(require 'github-elpa)"
+     "-f" "github-elpa-build"))))

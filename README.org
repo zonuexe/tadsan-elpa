@@ -1,0 +1,10 @@
+* GitHub Template to establish your Emacs Lisp Package Archive
+** How to Use
+1. Push "Use this template"
+2. Create repository
+3. Add any recipes to "recipes" directory like:
+   #+begin_src emacs-lisp :tangle yes
+     (package-name :fecher github :repo "username/yourpackage.el")
+   #+end_src
+   The file should be named "package-name".
+   Your package repository is "https://github.com/username/yourpackage.el".
